@@ -6,29 +6,21 @@ var tipAmount = document.getElementById("tipAmount").value / 100;
 
 function calculateTip() {
 
-  // var billAmount = document.getElementById("billAmount").value;
-  //
-  // var tipAmount = document.getElementById("tipAmount").value / 100;
+  var billAmount = document.getElementById("billAmount").value;
 
-  // if (billAmount || tipAmount == 0) {
-  //   console.log("bill amount or tip amount equal 0");
-  //   // alert("Please enter both a Bill amount and Tip amount");
-  // } else {
-  //
-  //
-  //
-  // }
+  var tipAmount = document.getElementById("tipAmount").value / 100;
 
   var total = (billAmount * tipAmount);
-  alert(Math.round(total));
+
+  // alert(Math.round(total));
+  return total;
 
 };
 
 document.getElementById("submitButton").onclick = function() {
 
-  // var displayField = document.getElementById("displayField").innerHTML = total;
-
   calculateTip();
 
+  alert(total);
 
 };
