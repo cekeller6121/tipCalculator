@@ -19,7 +19,7 @@ function calculateTip() {
   var roundedAmt = Math.ceil(total);
   var billTotal = (parseFloat(roundedAmt) + parseFloat(billAmount));
 
-  document.getElementById("displayField").innerHTML = "Bill: " + billAmount + "<br>" + "Tip: " + roundedAmt + "<br>" + "Total: $" + billTotal;
+  document.getElementById("displayField").innerHTML = "Bill: $" + billAmount + "<br>" + "Tip: $" + roundedAmt + "<br>" + "Total: $" + billTotal + "<br><br>";
 
   return false;
 

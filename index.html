@@ -13,9 +13,9 @@
 
   <form>
     <p>How much was your bill?</p>
-    <input type="text" id="billAmount" autofocus placeholder="$20.00" required>
+    <input type="text" id="billAmount" autofocus maxlength="5" placeholder="$20.00" required>
     <p>What would you like to tip?</p>
-    <input type="number" id="tipAmount" placeholder="18%" required>
+    <input type="number" id="tipAmount" maxlength="2" placeholder="18%" required>
     <br><br>
     <input type="button" id="submitButton" value="Submit">
     <input type="reset" id="resetButton" onclick="clearHTML()">
