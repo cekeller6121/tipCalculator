@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+.calcBox {
+
+  border: solid 3px Grey;
+  border-radius: 5px;
+  display: block;
+  font-family: 'Manjari', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+
+}
+
+#submitButton {
+
+  background-color: RoyalBlue;
+  border: none;
+  border-radius: 5px;
+  color: White;
+
+}
+
+#resetButton {
+
+  background-color: Green;
+  border: none;
+  border-radius: 5px;
+  color: White;
+
+}
