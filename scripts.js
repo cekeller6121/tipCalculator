@@ -1,17 +1,20 @@
 console.log("scripts connected");
 
+// check to see if user enters a dollar $ sign and remove it
 function removeDollar() {
   var deweyBill = document.getElementById("billAmount").value;
   var noBill = deweyBill.replace("$", "");
   document.getElementById("billAmount").value = noBill;
 };
 
+// check to see if user enters a percentage % sign and remove it
 function removePerc() {
   var deweyPerc = document.getElementById("tipAmount").value;
   var noPerc = deweyPerc.replace("%", "");
   document.getElementById("tipAmount").value = noPerc;
 };
 
+// function that grabs values, calculates tip, and returns user data
 function calculateTip() {
 
   var billAmount = document.getElementById("billAmount").value;
@@ -28,6 +31,7 @@ function calculateTip() {
 
 };
 
+// clears user data field when reset button is pressed
 function clearHTML() {
   document.getElementById("displayField").innerHTML = "";
 };
