@@ -1,5 +1,17 @@
 console.log("scripts connected");
 
+function removeDollar() {
+  var deweyBill = document.getElementById("billAmount").value;
+  var noBill = deweyBill.replace("$", "");
+  document.getElementById("billAmount").value = noBill;
+};
+
+function removePerc() {
+  var deweyPerc = document.getElementById("tipAmount").value;
+  var noPerc = deweyPerc.replace("%", "");
+  document.getElementById("tipAmount").value = noPerc;
+};
+
 function calculateTip() {
 
   var billAmount = document.getElementById("billAmount").value;
