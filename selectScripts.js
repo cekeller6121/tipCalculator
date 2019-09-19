@@ -22,21 +22,21 @@ function selectCountry() {
     document.getElementById("displayField").innerHTML = "";
     document.getElementById("billAmount").placeholder = "$20.00";
     document.getElementById("tipAmount").placeholder = "";
-    document.getElementById("tipNoteField").innerHTML = "not expected, but no harm in rounding up or leaving a few extra dollars for excellent service";
+    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>not expected, but no harm in rounding up or leaving a few extra dollars for excellent service";
   };
 
   if (dropDown == "czec") {
     document.getElementById("displayField").innerHTML = "";
     document.getElementById("billAmount").placeholder = "Kc20.00";
     document.getElementById("tipAmount").placeholder = "10-15%";
-    document.getElementById("tipNoteField").innerHTML = "(if not included in your bill)";
+    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>(if not included in your bill)";
   };
 
   if (dropDown == "uab") {
     document.getElementById("displayField").innerHTML = "";
     document.getElementById("billAmount").placeholder = "20.00";
     document.getElementById("tipAmount").placeholder = "10%";
-    document.getElementById("tipNoteField").innerHTML = "typically 10%, already included in your bill";
+    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>typically 10%, already included in your bill";
   };
 
 };
