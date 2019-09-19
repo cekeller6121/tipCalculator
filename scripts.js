@@ -8,10 +8,19 @@ function removeDollar() {
 };
 
 // check to see if user enters a percentage % sign and remove it
+// if statement checks for enter button to run calculateTip()
 function removePerc() {
   var deweyPerc = document.getElementById("tipAmount").value;
   var noPerc = deweyPerc.replace("%", "");
   document.getElementById("tipAmount").value = noPerc;
+
+  if (event.keyCode == 13) {
+
+    document.getElementById("submitButton").click();
+    console.log("enter pressed");
+
+  };
+
 };
 
 // function that grabs values, calculates tip, and returns user data
