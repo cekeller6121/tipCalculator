@@ -34,6 +34,7 @@ function calculateTip() {
 // clears user data field when reset button is pressed
 function clearHTML() {
   document.getElementById("displayField").innerHTML = "";
+  document.getElementById("tipNoteField").innerHTML = "";
 };
 
 document.getElementById("submitButton").onclick = function() {

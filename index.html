@@ -12,14 +12,24 @@
   <h1>Tip Calculator</h1>
 
   <form>
+    <p>What country/city are you in?</p>
+    <select id="countriesDropdown" onchange="selectCountry()">
+    <option value="us">United States (default)</option>
+    <option value="arge">Argentina - Buenos Aires</option>
+    <option value="aust">Australia - Sydney</option>
+    <option value="czec">Czech Republic - Prague</option>
+    <option value="uab">United Arab Emirates - Dubai</option>
+    </select>
     <p>How much was your bill?</p>
     <input type="text" id="billAmount" autofocus maxlength="6" onkeyup="removeDollar()" placeholder="$20.00" required>
     <p>What would you like to tip?</p>
-    <input type="text" id="tipAmount" maxlength="2" onkeyup="removePerc()" placeholder="18%" required>
+    <input type="text" id="tipAmount" maxlength="2" onkeyup="removePerc()" placeholder="15-20%" required>
     <br><br>
     <input type="button" id="submitButton" value="Submit">
     <input type="reset" id="resetButton" onclick="clearHTML()">
     <br><br>
+    <div id="tipNoteField"></div>
+    <br>
     <div id="displayField"></div>
 
 </section>
@@ -28,6 +38,7 @@
 
 
   <script type="text/javascript" src="scripts.js"></script>
+  <script type="text/javascript" src="selectScripts.js"></script>
 
 </body>
 </html>
