@@ -38,6 +38,8 @@ function calculateTip() {
 
   document.getElementById("displayField").innerHTML = "Bill: $" + billAmount + "<br>" + "Tip: $" + roundedAmt + "<br>" + "Total: $" + billTotal + "<br><br>";
 
+  document.getElementById("displayField").scrollIntoView();
+
 };
 
 // clears user data field when reset button is pressed
