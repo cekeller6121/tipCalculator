@@ -43,7 +43,7 @@ function selectCountry() {
     document.getElementById("displayField").innerHTML = "";
     document.getElementById("billAmount").placeholder = "20.00";
     document.getElementById("tipAmount").placeholder = "";
-    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>not expected, but no harm in rounding up or leaving a few extra dollars for excellent service - look for \"service compris\", French for service included";
+    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>not expected, but no harm in rounding up or leaving a few extra Euros for excellent service - look for \"service compris\", French for service included";
   };
 
   if (dropDown == "ital") {
