@@ -39,4 +39,18 @@ function selectCountry() {
     document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>typically 10%, already included in your bill";
   };
 
+  if (dropDown == "fran") {
+    document.getElementById("displayField").innerHTML = "";
+    document.getElementById("billAmount").placeholder = "20.00";
+    document.getElementById("tipAmount").placeholder = "";
+    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>not expected, but no harm in rounding up or leaving a few extra dollars for excellent service - look for \"service compris\", French for service included";
+  };
+
+  if (dropDown == "ital") {
+    document.getElementById("displayField").innerHTML = "";
+    document.getElementById("billAmount").placeholder = "20.00";
+    document.getElementById("tipAmount").placeholder = "";
+    document.getElementById("tipNoteField").innerHTML = "<font color=\"red\">note: </font>not expected, but no harm in leaving a few Euros on the table, but no more than 10% - look for \"coperto\" on your bill, Italian for  cover charge";
+  };
+
 };
