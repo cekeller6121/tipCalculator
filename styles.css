@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .calcBox {
     width: 75%;
   }
