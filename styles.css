@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 
+@media screen and (max-width: 750px) {
+  .calcBox {
+    width: 75%;
+  }
+}
+
 .calcBox {
 
   border: solid 3px Grey;
@@ -9,7 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 75%;
+  width: 50%;
 
 }
 
