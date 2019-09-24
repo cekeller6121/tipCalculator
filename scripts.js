@@ -43,10 +43,10 @@ function calculateTip() {
 };
 
 // clears user data field when reset button is pressed
-function clearHTML() {
-  document.getElementById("displayField").innerHTML = "";
-  document.getElementById("tipNoteField").innerHTML = "";
-};
+// function clearHTML() {
+//   document.getElementById("displayField").innerHTML = "";
+//   document.getElementById("tipNoteField").innerHTML = "";
+// };
 
 document.getElementById("submitButton").onclick = function() {
 
@@ -54,6 +54,6 @@ document.getElementById("submitButton").onclick = function() {
 
 };
 
-// function reloadPage() {
-//   location.reload();
-// };
+function reloadPage() {
+  location.reload();
+};
