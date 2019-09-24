@@ -53,3 +53,7 @@ document.getElementById("submitButton").onclick = function() {
     calculateTip();
 
 };
+
+function reloadPage() {
+  location.reload();
+};
