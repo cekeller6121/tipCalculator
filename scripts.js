@@ -54,6 +54,6 @@ document.getElementById("submitButton").onclick = function() {
 
 };
 
-function reloadPage() {
-  location.reload();
-};
+// function reloadPage() {
+//   location.reload();
+// };
