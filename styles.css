@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 
-/* @media screen and (max-width: 800px) {
-  .calcBox {
-    width: 75%;
-  }
-} */
-
 .calcBox {
 
   border: solid 3px Grey;
@@ -39,9 +33,4 @@
   font-size: 15px;
   padding: 12px 24px;
 
-}
-
-#sourceBox a{
-  color: black;
-  text-decoration: none;
 }
