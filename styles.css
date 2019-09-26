@@ -25,15 +25,19 @@
   border: none;
   border-radius: 5px;
   color: White;
+  font-size: 15px;
+  width: 60px;
 
 }
 
 #resetButton {
 
-  background-color: Green;
+  background-color: Red;
   border: none;
   border-radius: 5px;
   color: White;
+  font-size: 15px;
+  width: 60px;
 
 }
 
