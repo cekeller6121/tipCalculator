@@ -5,6 +5,7 @@ function removeDollar() {
   var deweyBill = document.getElementById("billAmount").value;
   var noBill = deweyBill.replace("$", "");
   document.getElementById("billAmount").value = noBill;
+
 };
 
 // check to see if user enters a percentage % sign and remove it
@@ -15,10 +16,7 @@ function removePerc() {
   document.getElementById("tipAmount").value = noPerc;
 
   if (event.keyCode == 13) {
-
     document.getElementById("submitButton").click();
-    console.log("enter pressed");
-
   };
 
 };
@@ -41,12 +39,6 @@ function calculateTip() {
   document.getElementById("displayField").scrollIntoView();
 
 };
-
-// clears user data field when reset button is pressed
-// function clearHTML() {
-//   document.getElementById("displayField").innerHTML = "";
-//   document.getElementById("tipNoteField").innerHTML = "";
-// };
 
 document.getElementById("submitButton").onclick = function() {
 
