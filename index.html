@@ -41,7 +41,7 @@
     <option value="viet">Vietnam - Hanoi</option>
     </select>
     <p>How much was your bill?</p>
-    <input type="number" id="billAmount" maxlength="6" onkeyup="removeDollar()" placeholder="$20.00" required step="0.01" max="6">
+    <input type="tel" id="billAmount" pattern="[0-9]{3}.[0-9]{2}" onkeyup="removeDollar()" placeholder="$20.00" required>
     <p>What would you like to tip?</p>
     <input type="text" id="tipAmount" maxlength="2" onkeyup="removePerc()" placeholder="15-20%" required>
     <br><br>
